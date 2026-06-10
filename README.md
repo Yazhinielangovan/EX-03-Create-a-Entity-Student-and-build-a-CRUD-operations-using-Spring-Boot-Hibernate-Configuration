@@ -38,8 +38,8 @@ PUT /students/{id} → Update student
 
 DELETE /students/{id} → Delete student
 
-##PROGRAM CODE
-
+## PROGRAM
+```
 ### pom.xml
 <dependencies>
     <!-- Spring Boot Web -->
@@ -165,3 +165,10 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 }
+```
+## OUTPUT
+<img width="890" height="432" alt="image" src="https://github.com/user-attachments/assets/8ee73ba5-84a6-4dbf-8c2e-83e106933d39" />
+<img width="618" height="511" alt="image" src="https://github.com/user-attachments/assets/109b7b26-8d1b-4a43-9abf-6cc838a3a741" />
+
+## RESULT 
+Thus,the Spring Boot application that performs CRUD (Create, Read, Update, Delete) operations on a Student entity using Spring Data JPA (Hibernate) was implemented and executed successfully.
